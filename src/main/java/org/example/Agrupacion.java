@@ -23,7 +23,11 @@ public class Agrupacion {
     }
 
     public void mostrarInformacion() {
-        // TODO: Completar lógica método (detalles del grupo, su categoría y recorrer la lista de miembros)
+        System.out.println("\n--- AGRUPACION "+nombreGrupo+" ---");
+        System.out.println("Nombre del grupo: "+nombreGrupo);
+        System.out.println("Miembros: "+getMiembros());
+        System.out.println("Categoria: "+categoriaPrincipal);
+        System.out.println("---------------------------");
     }
 
     // Getters y Setters
