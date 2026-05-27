@@ -6,14 +6,15 @@ public class Main {
         // 1. Instancias de objetos
         // Deben de cambiar estos objetos, creen los propios suyos, estos estan de referencia.
 
-        Categoria animeCat = new Categoria("Manga y Anime", 50, 9.5);
-        Categoria arteCat = new Categoria("Ilustración Digital", 30, 8.0);
+        Categoria mundoGeek = new Categoria("Mundo Geek", 30,9.0);
+        Categoria ate = new Categoria("Dance Cover e Ilustracion Digital",20,8.5);
 
-        Cosplayer cosplayer1 = new Cosplayer("Luis", "Chile", 20, 5, EstiloCosplay.ANIME);
-        Artista artista1 = new Artista("Camila", "México", 22, "Wacom Intuos", 3);
+        Cosplayer cosplay = new Cosplayer("Esteban","Mexico",22,4, EstiloCosplay.VIDEOJUEGOS);
 
-        Agrupacion comunidadAnime = new Agrupacion("Team Otaku UFRO", animeCat);
-        Panel panelPrincipal = new Panel(animeCat, "15:30 hrs");
+        Artista a1 = new Artista("Sofia","Argentina",19,"Huion",2);
+
+        Agrupacion comunidadGeek = new Agrupacion("Team Otaku UFRO", mundoGeek);
+        Panel panelPrincipal = new Panel(mundoGeek, "15:30 hrs");
 
         // --- SECCIÓN DE PRUEBAS ---
         // Ej: agregar personas a categorías, meter miembros a la agrupación, montar el panel y llamar a mostrarInformacion().
