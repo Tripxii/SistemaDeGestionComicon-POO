@@ -7,7 +7,7 @@ public class Main {
         // Deben de cambiar estos objetos, creen los propios suyos, estos estan de referencia.
 
         Categoria mundoGeek = new Categoria("Mundo Geek", 30,9.0);
-        Categoria ate = new Categoria("Dance Cover e Ilustracion Digital",20,8.5);
+        Categoria arte = new Categoria("Dance Cover e Ilustracion Digital",20,8.5);
 
         Cosplayer cosplay = new Cosplayer("Esteban","Mexico",22,4, EstiloCosplay.VIDEOJUEGOS);
 
