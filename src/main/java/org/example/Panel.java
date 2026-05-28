@@ -15,7 +15,7 @@ public class Panel {
     }
 
     public void agregarPanelista(Object panelista) {
-        // TODO: Completar lógica método (debe validar si es instancia de Persona o Agrupacion antes de añadir)
+        // TODO: Completar lógica método (n ,mnkjndebe validar si es instancia de Persona o Agrupacion antes de añadir)
     }
 
     public void eliminarPanelista(Object panelista) {
