@@ -15,11 +15,11 @@ public class Agrupacion {
     }
 
     public void agregarMiembro(Persona persona) {
-        // TODO: Completar lógica método
+        miembros.add(persona);
     }
 
     public void eliminarMiembro(Persona persona) {
-        // TODO: Completar lógica método
+        miembros.remove(persona);
     }
 
     public void mostrarInformacion() {
