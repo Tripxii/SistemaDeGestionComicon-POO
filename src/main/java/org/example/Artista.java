@@ -17,18 +17,17 @@ public class Artista extends Persona implements Interactivable {
         System.out.println("Pais de origen: " + paisOrigen);
         System.out.println("Edad          : " + edad + " años");
         System.out.println("Marca tableta : " + marcaTableta);
-        System.out.println("Artbooks pub  : " + cantidadArtbooksPublicados);
-        System.out.print("Categorías      : ");
+        System.out.println("Artbooks publicados  : " + cantidadArtbooksPublicados);
+        System.out.print("Categorias      : ");
         for (Categoria c : categorias) {
             System.out.print(c.getNombre() + " ");
-
         }
     }
 
     @Override
     public void realizarPresentacion() {
-        System.out.println("PRESENTACIÓN DE ARTISTA");
-        System.out.println(nombre + " muestra su portafolio digital dibujado con tableta " + marcaTableta );
+        System.out.println("PRESENTACION DE ARTISTA");
+        System.out.println(nombre + " mueotra su portafolio digital dibujado con tableta " + marcaTableta );
         System.out.println("Ha publicado " + cantidadArtbooksPublicados + " artbook disponibles en el evento");
     }
 
@@ -52,7 +51,7 @@ public class Artista extends Persona implements Interactivable {
     @Override
     public String toString() {
         return "Artista: " + getNombre()
-                + " | Tableta: " + marcaTableta           // propio → directo
-                + " | Artbooks: " + cantidadArtbooksPublicados; // propio → directo
+                + " | Tableta: " + marcaTableta
+                + " | Artbooks: " + cantidadArtbooksPublicados;
     }
 }

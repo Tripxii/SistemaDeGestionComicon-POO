@@ -15,16 +15,18 @@ public class Agrupacion {
     }
 
     public void agregarMiembro(Persona persona) {
-        // TODO: Completar lógica método
+        miembros.add(persona);
     }
 
     public void eliminarMiembro(Persona persona) {
-        // TODO: Completar lógica método
+        miembros.remove(persona);
     }
 
     public void mostrarInformacion() {
-        // TODO: Completar lógica método (detalles del grupo, su categoría y recorrer la lista de miembros)
-    }
+        System.out.println("=== AGRUPACIÓN ===");
+        System.out.println("Grupo: " + nombreGrupo);
+        System.out.println("Categoría principal:");
+        categoriaPrincipal.mostrarInformacion();    }
 
     // Getters y Setters
     public String getNombreGrupo() { return nombreGrupo; }
