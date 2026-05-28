@@ -24,7 +24,7 @@ public class Panel {
 
     public void mostrarInformacion() {
         System.out.println("INFO");
-        System.out.println("Hora: "+horaPresentacion;
+        System.out.println("Hora: "+horaPresentacion);
         System.out.println("Categoria: "+categoria);
         System.out.println("Panelistas: "+panelistas);
     }
