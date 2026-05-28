@@ -18,12 +18,4 @@ public class Categoria {
         System.out.println("Popularidad: "+popularidadEstimada);
         System.out.println("----------------------------");
     }
-
-    // Getters y Setters
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
-    public int getNumeroCuposMaximos() { return numeroCuposMaximos; }
-    public void setNumeroCuposMaximos(int numeroCuposMaximos) { this.numeroCuposMaximos = numeroCuposMaximos; }
-    public double getPopularidadEstimada() { return popularidadEstimada; }
-    public void setPopularidadEstimada(double popularidadEstimada) { this.popularidadEstimada = popularidadEstimada; }
 }

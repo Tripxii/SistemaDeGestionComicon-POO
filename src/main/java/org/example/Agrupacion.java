@@ -31,9 +31,5 @@ public class Agrupacion {
     }
 
     // Getters y Setters
-    public String getNombreGrupo() { return nombreGrupo; }
-    public void setNombreGrupo(String nombreGrupo) { this.nombreGrupo = nombreGrupo; }
     public List<Persona> getMiembros() { return miembros; }
-    public Categoria getCategoriaPrincipal() { return categoriaPrincipal; }
-    public void setCategoriaPrincipal(Categoria categoriaPrincipal) { this.categoriaPrincipal = categoriaPrincipal; }
 }

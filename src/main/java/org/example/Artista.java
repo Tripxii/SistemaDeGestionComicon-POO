@@ -26,9 +26,4 @@ public class Artista extends Persona implements Interactivable {
         System.out.println("Ha publicado " + cantidadArtbooksPublicados + " artbook disponibles en el evento");
     }
 
-    // Getters y Setters
-    public String getMarcaTableta() { return marcaTableta; }
-    public void setMarcaTableta(String marcaTableta) { this.marcaTableta = marcaTableta; }
-    public int getCantidadArtbooksPublicados() { return cantidadArtbooksPublicados; }
-    public void setCantidadArtbooksPublicados(int cantidadArtbooksPublicados) { this.cantidadArtbooksPublicados = cantidadArtbooksPublicados; }
 }

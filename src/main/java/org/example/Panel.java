@@ -29,10 +29,4 @@ public class Panel {
         System.out.println("Panelistas: "+panelistas);
     }
 
-    // Getters y Setters
-    public Categoria getCategoria() { return categoria; }
-    public void setCategoria(Categoria categoria) { this.categoria = categoria; }
-    public List<Object> getPanelistas() { return panelistas; }
-    public String getHoraPresentacion() { return horaPresentacion; }
-    public void setHoraPresentacion(String horaPresentacion) { this.horaPresentacion = horaPresentacion; }
 }

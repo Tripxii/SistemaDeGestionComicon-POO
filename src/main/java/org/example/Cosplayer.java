@@ -30,9 +30,4 @@ public class Cosplayer extends Persona implements Interactivable {
         System.out.println("Cuenta con " + cantidadTrajes + " trajes para el evento");
     }
 
-    // Getters y Setters
-    public int getCantidadTrajes() { return cantidadTrajes; }
-    public void setCantidadTrajes(int cantidadTrajes) { this.cantidadTrajes = cantidadTrajes; }
-    public EstiloCosplay getEstiloPreferido() { return estiloPreferido; }
-    public void setEstiloPreferido(EstiloCosplay estiloPreferido) { this.estiloPreferido = estiloPreferido; }
 }
