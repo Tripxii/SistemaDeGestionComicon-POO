@@ -31,7 +31,7 @@ public class Cosplayer extends Persona implements Interactivable {
         System.out.println(" PRESENTACIÓN DE COSPLAYER ");
         System.out.println(nombre + " realiza su presentacion con estilo " + estiloPreferido);
         System.out.println("Tiempo estimado de preparación: " + tiempoEstimado + " minutos");
-        System.out.println("Cuenta con " + cantidadTrajes + " traje(s) para el evento.");
+        System.out.println("Cuenta con " + cantidadTrajes + " traje(s) para el evento");
     }
 
 
