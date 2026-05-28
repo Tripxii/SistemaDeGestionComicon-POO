@@ -12,12 +12,22 @@ public class Cosplayer extends Persona implements Interactivable {
 
     @Override
     public void mostrarInformacion() {
+        System.out.println("INFO");
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Cantidad de trajes: "+cantidadTrajes);
+        System.out.println("Estilo favorito: "+estiloPreferido);
         // TODO: Completar lógica método (imprimir datos base de Persona y específicos de Cosplayer)
     }
 
     @Override
     public void realizarPresentacion() {
-        // TODO: Completar lógica método (simular presentación e imprimir tiempo estimado de preparación)
+
+        int tiempoEstimado = 30 + (cantidadTrajes - 1) * 15;
+
+        System.out.println(" PRESENTACIÓN DE COSPLAYER ");
+        System.out.println(nombre + " realiza su presentacion con estilo " + estiloPreferido);
+        System.out.println("Tiempo estimado de preparación: " + tiempoEstimado + " minutos");
+        System.out.println("Cuenta con " + cantidadTrajes + " trajes para el evento");
     }
 
     // Getters y Setters

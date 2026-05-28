@@ -15,15 +15,18 @@ public class Panel {
     }
 
     public void agregarPanelista(Object panelista) {
-        // TODO: Completar lógica método (debe validar si es instancia de Persona o Agrupacion antes de añadir)
+        panelistas.add(panelista);
     }
 
     public void eliminarPanelista(Object panelista) {
-        // TODO: Completar lógica método
+        panelistas.remove(panelista);
     }
 
     public void mostrarInformacion() {
-        // TODO: Completar lógica método (mostrar hora, tema/categoría y quiénes exponen)
+        System.out.println("INFO");
+        System.out.println("Hora: "+horaPresentacion;
+        System.out.println("Categoria: "+categoria);
+        System.out.println("Panelistas: "+panelistas);
     }
 
     // Getters y Setters

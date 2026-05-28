@@ -16,11 +16,19 @@ public class Main {
         Agrupacion comunidadGeek = new Agrupacion("Team Otaku UFRO", mundoGeek);
         Panel panelPrincipal = new Panel(mundoGeek, "15:30 hrs");
 
-        cosplay.agregarCategoria(arte);
-        a1.eliminarCategoria(mundoGeek);
+
 
         // --- SECCIÓN DE PRUEBAS ---
         // Ej: agregar personas a categorías, meter miembros a la agrupación, montar el panel y llamar a mostrarInformacion().
+
+        cosplay.agregarCategoria(arte);
+        a1.eliminarCategoria(mundoGeek);
+
+        comunidadGeek.agregarMiembro(cosplay);
+        comunidadGeek.mostrarInformacion();
+
+        panelPrincipal.agregarPanelista(a1);
+        panelPrincipal.mostrarInformacion();
 
 
     }
